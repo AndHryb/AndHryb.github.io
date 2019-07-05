@@ -1,18 +1,18 @@
 var name = prompt('Введите ваше имя','');
-if (name == ''){
+while (name == ''){
     name = prompt('Пожалуйста,ведите ваше имя','');
 }
 var surname = prompt('Введите вашу фаилию','');
-if (surname == ''){
+while(surname == ''){
     surname = prompt('Пожалуйста,ведите вашу фамилию','');
 }
 var patronymic = prompt('Введите ваше отчество','');
-if (patronymic == ''){
+while(patronymic == ''){
     patronymic = prompt('Пожалуйста,ведите ваше отчество','');
 }
-var year = Number(prompt('Сколько вам полных лет?',''));
-if(year<0 || year>120 || typeof(year) !=="number" ){
-    year = Number(prompt('Введите коректно свой возраст',''));
+var year = parseFloat(prompt('Сколько вам полных лет?',''));
+while(year<0 || year>120 || typeof(year) !=="number" ){
+    year = parseFloat(prompt('Введите коректно свой возраст',''));
 }
 var gender = confirm('Ваш пол мужской?');
 var sex;
