@@ -1,7 +1,8 @@
+"use strict"
 do{
     var name = prompt('Введите ваше имя','');
 }
-while(!name||name == 'null');
+while(!name || name == "null");// возражает вместо null  значение строчкой "null" только в этом цикле поэтому костыль
 do{
     var surname = prompt('Введите вашу фамилию','');
 }

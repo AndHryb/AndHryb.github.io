@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8523ae91-f4dd-46a1-990e-8dd8260e77d9" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HomeTask1/qestionnaire.js" beforeDir="false" afterPath="$PROJECT_DIR$/HomeTask1/qestionnaire.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -29,8 +28,8 @@
       <file leaf-file-name="qestionnaire.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/HomeTask1/qestionnaire.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
+            <state relative-caret-position="68">
+              <caret line="4" column="117" selection-start-line="4" selection-start-column="117" selection-end-line="4" selection-end-column="117" />
             </state>
           </provider>
         </entry>
@@ -57,7 +56,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-10" />
     <option name="y" value="-10" />
     <option name="width" value="1940" />
@@ -117,12 +116,12 @@
       <option name="presentableId" value="Default" />
       <updated>1562359481807</updated>
       <workItem from="1562359482986" duration="52000" />
-      <workItem from="1562428857758" duration="5781000" />
+      <workItem from="1562428857758" duration="7174000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5833000" />
+    <option name="totallyTimeSpent" value="7226000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -170,8 +169,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/HomeTask1/qestionnaire.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
+        <state relative-caret-position="68">
+          <caret line="4" column="117" selection-start-line="4" selection-start-column="117" selection-end-line="4" selection-end-column="117" />
         </state>
       </provider>
     </entry>
