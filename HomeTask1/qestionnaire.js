@@ -1,30 +1,23 @@
-var name = prompt('Введите ваше имя','');
-while (name == ''){
-    name = prompt('Пожалуйста,ведите ваше имя','');
+do{
+    var name = prompt('Введите ваше имя','');
 }
-var surname = prompt('Введите вашу фаилию','');
-while(surname == ''){
-    surname = prompt('Пожалуйста,ведите вашу фамилию','');
+while(!name||name == 'null');
+do{
+    var surname = prompt('Введите вашу фамилию','');
 }
-var patronymic = prompt('Введите ваше отчество','');
-while(patronymic == ''){
-    patronymic = prompt('Пожалуйста,ведите ваше отчество','');
+while(!surname);
+do{
+    var patronymic = prompt('Введите ваше отчество','');
 }
-var year = parseFloat(prompt('Сколько вам полных лет?',''));
-while(year<0 || year>120 || typeof(year) !=="number" ){
-    year = parseFloat(prompt('Введите коректно свой возраст',''));
+while(!patronymic);
+do{
+    var year = Number(prompt('Сколько вам полных лет?',''));
 }
-var gender = confirm('Ваш пол мужской?');
-var sex;
-if (gender === true){
-    sex = 'мужской'
-}
-else{
-    sex = 'женский'
-}
+while(year == 0 || typeof(year) !== "number"|| isNaN(year) );
+var gender = confirm('Ваш пол мужской');
 var leapYear = parseInt(year*0.25);
 var retired
-if (year >65){
+if (year >=65&&gender||year>=60&&!gender){
     retired = 'Да'
 }
 else {
@@ -36,5 +29,5 @@ alert( `
             Ваш возраст в годах: ${year}
             Ваш возраст в днях : ${((year -leapYear )*365 +(leapYear*366))} 
             Через 5 лет вам будет: ${year + 5} 
-            Ваш пол: ${sex}  
+            Ваш пол: ${gender?'М':'Ж'}  
             Вы на пенсии?: ${retired}`);
