@@ -1,8 +1,8 @@
 "use strict"
 do{
-    var name = prompt('Введите ваше имя','');
+    var forename = prompt('Введите ваше имя','');
 }
-while(!name || name == "null");// возражает вместо null  значение строчкой "null" только в этом цикле поэтому костыль
+while(!forename);
 do{
     var surname = prompt('Введите вашу фамилию','');
 }
@@ -26,7 +26,7 @@ else {
 }
 
 alert( `
-            Ваше ФИО:${surname} ${name} ${patronymic} 
+            Ваше ФИО:${surname} ${forename} ${patronymic} 
             Ваш возраст в годах: ${year}
             Ваш возраст в днях : ${((year -leapYear )*365 +(leapYear*366))} 
             Через 5 лет вам будет: ${year + 5} 
