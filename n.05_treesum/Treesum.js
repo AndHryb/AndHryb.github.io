@@ -1,8 +1,8 @@
 "use strict"
-function treeSum(a) {
+function treeSum(arr) {
     let sum= 0;
-    for(let i=0;i < a.length;i++){
-        let element = a[i];
+    for(let i=0;i < arr.length;i++){
+        let element = arr[i];
         if(typeof element === "object"){
             sum +=treeSum(element);
         }
