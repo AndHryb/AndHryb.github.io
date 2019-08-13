@@ -1,6 +1,7 @@
 "use strict"
-let  str = (prompt('Введите сообщение')).toLowerCase();
-function vowels() {
+let  message = prompt('Введите сообщение');
+function vowels(str) {
+    str.toLowerCase();
     let vowels = ['а','о','и','e','ё','э','ы','у','ю','я'];
     let mess = str.split('');
     function vovelsSearch(v,i,a) {
@@ -11,4 +12,4 @@ function vowels() {
 
      return mess.filter(vovelsSearch).length;
 }
-console.log('Количество гласных букв ' + vowels());
+console.log('Количество гласных букв ' + vowels(message));
