@@ -5,9 +5,6 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/n.07_vowels/vowels.js" beforeDir="false" afterPath="$PROJECT_DIR$/n.07_vowels/vowels.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/n.13_drinks_hash/drinks_hash.js" beforeDir="false" afterPath="$PROJECT_DIR$/n.13_drinks_hash/drinks_hash.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/n.17_vowels_arr/filter/vowels_Filter.js" beforeDir="false" afterPath="$PROJECT_DIR$/n.17_vowels_arr/filter/vowels_Filter.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/n.17_vowels_arr/forEach/vowels_forEach.js" beforeDir="false" afterPath="$PROJECT_DIR$/n.17_vowels_arr/forEach/vowels_forEach.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/n.17_vowels_arr/reduce/vovels_reduce.js" beforeDir="false" afterPath="$PROJECT_DIR$/n.17_vowels_arr/reduce/vovels_reduce.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -25,7 +22,7 @@
         <entry file="file://$PROJECT_DIR$/n.07_vowels/vowels.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="238">
-              <caret line="14" column="32" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
+              <caret line="14" column="31" lean-forward="true" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -33,26 +30,17 @@
       <file leaf-file-name="vowels_Filter.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/n.17_vowels_arr/filter/vowels_Filter.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="55" selection-start-line="14" selection-start-column="55" selection-end-line="14" selection-end-column="55" />
+            <state relative-caret-position="51">
+              <caret line="3" column="4" lean-forward="true" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="vowels_forEach.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/n.17_vowels_arr/forEach/vowels_forEach.js">
+      <file leaf-file-name="drinks_hash.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/n.13_drinks_hash/drinks_hash.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="55" selection-start-line="15" selection-start-column="55" selection-end-line="15" selection-end-column="55" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="vovels_reduce.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/n.17_vowels_arr/reduce/vovels_reduce.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="15" lean-forward="true" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
+            <state relative-caret-position="544">
+              <caret line="47" column="34" lean-forward="true" selection-start-line="47" selection-start-column="34" selection-end-line="47" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -89,11 +77,11 @@
         <option value="$PROJECT_DIR$/n.05_treesum/index.html" />
         <option value="$PROJECT_DIR$/n.13_drinks_hash/index.html" />
         <option value="$PROJECT_DIR$/n.05_treesum/Treesum.js" />
-        <option value="$PROJECT_DIR$/n.07_vowels/vowels.js" />
-        <option value="$PROJECT_DIR$/n.13_drinks_hash/drinks_hash.js" />
         <option value="$PROJECT_DIR$/n.17_vowels_arr/filter/vowels_Filter.js" />
         <option value="$PROJECT_DIR$/n.17_vowels_arr/forEach/vowels_forEach.js" />
         <option value="$PROJECT_DIR$/n.17_vowels_arr/reduce/vovels_reduce.js" />
+        <option value="$PROJECT_DIR$/n.07_vowels/vowels.js" />
+        <option value="$PROJECT_DIR$/n.13_drinks_hash/drinks_hash.js" />
       </list>
     </option>
   </component>
@@ -131,25 +119,7 @@
             <path>
               <item name="pvtcourses" type="b2602c69:ProjectViewProjectNode" />
               <item name="pvtcourses" type="462c0819:PsiDirectoryNode" />
-              <item name="n.17_vowels_arr" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pvtcourses" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pvtcourses" type="462c0819:PsiDirectoryNode" />
-              <item name="n.17_vowels_arr" type="462c0819:PsiDirectoryNode" />
-              <item name="filter" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pvtcourses" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pvtcourses" type="462c0819:PsiDirectoryNode" />
-              <item name="n.17_vowels_arr" type="462c0819:PsiDirectoryNode" />
-              <item name="forEach" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pvtcourses" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pvtcourses" type="462c0819:PsiDirectoryNode" />
-              <item name="n.17_vowels_arr" type="462c0819:PsiDirectoryNode" />
-              <item name="reduce" type="462c0819:PsiDirectoryNode" />
+              <item name="n.13_drinks_hash" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -205,11 +175,13 @@
       <workItem from="1565450483319" duration="2019000" />
       <workItem from="1565452851862" duration="297000" />
       <workItem from="1565722914245" duration="5014000" />
+      <workItem from="1565808055376" duration="115000" />
+      <workItem from="1567103000412" duration="3161000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="65931000" />
+    <option name="totallyTimeSpent" value="69207000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -494,27 +466,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/n.13_drinks_hash/drinks_hash.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/n.07_vowels/vowels.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="32" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/n.17_vowels_arr/filter/vowels_Filter.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="55" selection-start-line="14" selection-start-column="55" selection-end-line="14" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/n.17_vowels_arr/forEach/vowels_forEach.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -524,8 +475,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/n.17_vowels_arr/reduce/vovels_reduce.js">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="9" lean-forward="true" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/n.07_vowels/vowels.js">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
-          <caret line="14" column="15" lean-forward="true" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
+          <caret line="14" column="31" lean-forward="true" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/n.17_vowels_arr/filter/vowels_Filter.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="4" lean-forward="true" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/n.13_drinks_hash/drinks_hash.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="47" column="34" lean-forward="true" selection-start-line="47" selection-start-column="34" selection-end-line="47" selection-end-column="34" />
         </state>
       </provider>
     </entry>

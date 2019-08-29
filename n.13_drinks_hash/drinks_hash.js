@@ -29,21 +29,18 @@ function addDrinkInfo() {
 
 function getDrinkInfo() {
     var askDrinkName = prompt('Введите название напитка,о котором хотите получить информацию');
-    if (drinkStorage.getValue(askDrinkName) === undefined) {
+    var drinkInfo = drinkStorage.getValue(askDrinkName);
+    if(drinkInfo === undefined) {
         console.log('Информации об этом напитке не найдено')
     }else{
-        console.log((drinkStorage.getValue(askDrinkName).alcogol) ? 'Алкогольный напиток' : 'Безалкогольный Напиток');
-        console.log('Рецепт: ' + drinkStorage.getValue(askDrinkName).recept);
+        console.log((drinkInfo.alcogol) ? 'Алкогольный напиток' : 'Безалкогольный Напиток');
+        console.log('Рецепт: ' + drinkInfo.recept);
     }
 }
 
 function delDrinkInfo () {
     var delDrinkName = prompt('Введите название напитка,информацию о котором хотите удалить');
-    if(delDrinkName in drinkStorage.storage){
-        drinkStorage.deleteValue(delDrinkName);
-    }else{
-        console.log('Информации об этом напитке не найдено')
-    }
+    console.log((drinkStorage.deleteValue(delDrinkName))?'Напиток удален':'Информации об этом напитке не найдено')
 }
 
 function getAllDrinks() {
