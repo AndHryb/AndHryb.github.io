@@ -1,10 +1,10 @@
 "use strict"
 let  message = prompt('Введите сообщение')
 function vowels(str) {
-    str.toLowerCase();
+    let changedStr = str.toLowerCase();
     let vowels = ['а','о','и','e','ё','э','ы','у','ю','я'];
     let count = 0;
-    let mess = str.split('');
+    let mess = changedStr.split('');
     function f(v,i,a) {
         if(vowels.indexOf(v)!==-1){
     count++;
