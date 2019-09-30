@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        .field {
+            clear: both;
+            text-align: left;
+            line-height: 25px;
+        }
+        label{
+            float: left;
+            width: 180px;
+        }
+        .inputfield,select{
+            width: 250px;
+            clear: both;
+        }
+        #dev_err,#name_err,#url_err,#date_err,#visitors_err,#email_err,#catalog_err,#placement_err,#feedback_err,#description_err{
+            color: red;
+            vertical-align: center;
+        }
+
+    </style>
+    <script src="valid_form.js" defer></script>
+</head>
+<body>
+    <div class="main">
+    <form action="http://fe.it-academy.by/TestForm.php" name="my_form" novalidate>
+        <div class="field">
+            <label>Разработчики :</label>
+            <input type="text" name="developers" class="inputfield">
+            <span id = "dev_err"></span>
+        </div>
+        <div class="field">
+            <label>Название сайта :</label>
+            <input type="text" name="site_name" class="inputfield">
+            <span id="name_err"></span>
+        </div>
+        <div class="field">
+            <label>URL сайта:</label>
+            <input type="url" name="site_url" class="inputfield">
+            <span id="url_err"></span>
+        </div>
+        <div class="field">
+            <label>Дата Запуска сайта:</label>
+            <input type="Date" name="date_start" class="inputfield">
+            <span id="date_err"></span>
+        </div>
+        <div class="field">
+            <label>Посетителей в сутки:</label>
+            <input type="number" name="visitors" class="inputfield">
+            <span id="visitors_err"></span>
+        </div>
+        <div class="field">
+            <label>E-mail для связи</label>
+            <input type="email" name="email" class="inputfield">
+            <span id="email_err"></span>
+        </div>
+        <div class="field">
+            <label>Рубрика каталога</label>
+            <select name="catalog_item">
+                <option disabled selected value="0">Выберите рубрику</option>
+                <option value="1">Бытовая техника</option>
+                <option value="2">Автомобили</option>
+                <option value="3">Электроника</option>
+                <option value="4">Компьютеры и Ноутбуки</option>
+            </select>
+            <span id="catalog_err"></span>
+        </div>
+        <div class="field">
+            <label>Размещение:</label>
+            <span id="radio_group">
+                <input type="radio" name="placement" value="free"> Бесплатное
+                <input type="radio" name="placement" value="pay"> Платное
+                <input type="radio" name="placement" value="vip"> VIP
+            </span>
+            <span id="placement_err"></span>
+        </div>
+            <label>Разрешить отзывы</label>
+            <input type="radio" name="feedback" value="true">
+            <span id="feedback_err"></span>
+        </div>
+        <div class="field">
+            <label>Описание сайта:</label>
+            <textarea name="description" class="inputfield" rows="10"></textarea>
+            <span id="description_err"></span>
+        </div>
+        <div class="field">
+           <input type="submit">
+        </div>
+    </form>
+    </div>
+</body>
+</html>
