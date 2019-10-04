@@ -129,7 +129,7 @@ function catalogValid(focusWhenError) {
 document.forms.my_form.elements.catalog_item.addEventListener('blur',function(EO){ catalogValid(false);});
 
 function placementValid(focusWhenError) {
-    var placementElem = formObj.elements.placement;
+    var placementElem = formObj.elements.placement[0];
     var isChecked = false;
     for(var i=0;i<formObj.elements.placement.length;i++){
         if(formObj.elements.placement[i].checked){
@@ -178,7 +178,7 @@ document.forms.my_form.elements.feedback.addEventListener('change',function(EO){
 
 function descriptionValid(focusWhenError) {
     var descriptionElem = formObj.elements.description;
-    var descriptionValue = descriptionElem.textContent;
+    var descriptionValue = descriptionElem.value;
     var descriptionErr = document.getElementById('description_err');
     if (descriptionValue){
         descriptionErr.textContent = '';
@@ -205,7 +205,6 @@ document.forms.my_form.onsubmit = function (EO){
     okValid = placementValid(okValid) && okValid;
     okValid = feedBackValid(okValid) && okValid;
     okValid = descriptionValid(okValid) && okValid;
-    alert(okValid);
     if(!okValid){
         EO.preventDefault()
     }

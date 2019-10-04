@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8523ae91-f4dd-46a1-990e-8dd8260e77d9" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/n.27_valid_form/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/n.27_valid_form/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/n.27_valid_form/valid_form.js" beforeDir="false" afterPath="$PROJECT_DIR$/n.27_valid_form/valid_form.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -21,11 +19,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="valid_form.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="valid_form.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/n.27_valid_form/valid_form.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="731">
-              <caret line="195" column="48" selection-start-line="195" selection-start-column="48" selection-end-line="195" selection-end-column="48" />
+            <state relative-caret-position="357">
+              <caret line="188" column="36" lean-forward="true" selection-start-line="188" selection-start-column="36" selection-end-line="188" selection-end-column="36" />
               <folding>
                 <element signature="n#!!block;n#devValid#0" />
                 <element signature="n#!!block;n#nameValid#0" />
@@ -34,17 +32,15 @@
                 <element signature="n#!!block;n#visitorsValid#0" />
                 <element signature="n#!!block;n#emailValid#0" />
                 <element signature="n#!!block;n#catalogValid#0" />
-                <element signature="n#!!block;n#placementValid#0" />
-                <element signature="n#!!block;n#feedBackValid#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/n.27_valid_form/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
+            <state relative-caret-position="204">
               <caret line="18" column="9" lean-forward="true" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
               <folding>
                 <element signature="n#div#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" />
@@ -100,8 +96,8 @@
         <option value="$PROJECT_DIR$/n.17_vowels_arr/reduce/vovels_reduce.js" />
         <option value="$PROJECT_DIR$/n.30_dragondrop/index.html" />
         <option value="$PROJECT_DIR$/n.30_dragondrop/dragondrop.js" />
-        <option value="$PROJECT_DIR$/n.27_valid_form/valid_form.js" />
         <option value="$PROJECT_DIR$/n.27_valid_form/index.html" />
+        <option value="$PROJECT_DIR$/n.27_valid_form/valid_form.js" />
       </list>
     </option>
   </component>
@@ -114,7 +110,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-10" />
     <option name="y" value="-10" />
     <option name="width" value="980" />
@@ -209,12 +205,12 @@
       <workItem from="1569952739127" duration="7150000" />
       <workItem from="1570040705260" duration="7748000" />
       <workItem from="1570126996481" duration="8569000" />
-      <workItem from="1570216334198" duration="5095000" />
+      <workItem from="1570216334198" duration="6682000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="172533000" />
+    <option name="totallyTimeSpent" value="174120000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -521,27 +517,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/n.27_valid_form/valid_form.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="731">
-          <caret line="195" column="48" selection-start-line="195" selection-start-column="48" selection-end-line="195" selection-end-column="48" />
-          <folding>
-            <element signature="n#!!block;n#devValid#0" />
-            <element signature="n#!!block;n#nameValid#0" />
-            <element signature="n#!!block;n#urlValid#0" />
-            <element signature="n#!!block;n#dateValid#0" />
-            <element signature="n#!!block;n#visitorsValid#0" />
-            <element signature="n#!!block;n#emailValid#0" />
-            <element signature="n#!!block;n#catalogValid#0" />
-            <element signature="n#!!block;n#placementValid#0" />
-            <element signature="n#!!block;n#feedBackValid#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/n.27_valid_form/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
+        <state relative-caret-position="204">
           <caret line="18" column="9" lean-forward="true" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
           <folding>
             <element signature="n#div#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" />
@@ -551,6 +529,22 @@
             <element signature="n#div#4;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#5;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#6;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/n.27_valid_form/valid_form.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="188" column="36" lean-forward="true" selection-start-line="188" selection-start-column="36" selection-end-line="188" selection-end-column="36" />
+          <folding>
+            <element signature="n#!!block;n#devValid#0" />
+            <element signature="n#!!block;n#nameValid#0" />
+            <element signature="n#!!block;n#urlValid#0" />
+            <element signature="n#!!block;n#dateValid#0" />
+            <element signature="n#!!block;n#visitorsValid#0" />
+            <element signature="n#!!block;n#emailValid#0" />
+            <element signature="n#!!block;n#catalogValid#0" />
           </folding>
         </state>
       </provider>
