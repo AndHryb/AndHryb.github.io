@@ -137,12 +137,17 @@ function placementValid(focusWhenError) {
         }
     }
 
-
     var placementErr = document.getElementById('placement_err');
-    if (isChecked){
+    if (formObj.elements.placement[1].checked||formObj.elements.placement[2].checked){
         placementErr.textContent = '';
         return true;
-    } else {
+    } else if(formObj.elements.placement[0].checked) {
+        placementErr.textContent = 'Бесплатное размещение не доступно для вашего аккаунта';
+        if (focusWhenError) {
+            placementElem.scrollIntoView();
+        }
+        return false;
+    } else if(!isChecked) {
         placementErr.textContent = 'Выберите элемент';
         if (focusWhenError) {
             placementElem.scrollIntoView();
@@ -150,11 +155,30 @@ function placementValid(focusWhenError) {
         return false;
     }
 }
-document.getElementById('radio_group').addEventListener('mouseleave',function(EO){ placementValid(false);});;
+for(var i=0;i<document.forms.my_form.elements.placement.length;i++){
+    document.forms.my_form.elements.placement[i].addEventListener('change',function(EO){ placementValid(false);});
+}
+
+
+function feedBackValid(focusWhenError) {
+    var feedBackElem = formObj.elements.feedback;
+    var feedBackErr = document.getElementById('feedback_err');
+    if (feedBackElem.checked){
+        feedBackErr.textContent = '';
+        return true;
+    } else {
+        feedBackErr.textContent = 'Разрешите отзывы';
+        if (focusWhenError) {
+            feedBackElem.scrollIntoView();
+        }
+        return false;
+    }
+}
+document.forms.my_form.elements.feedback.addEventListener('change',function(EO){ feedBackValid(false);});
 
 function descriptionValid(focusWhenError) {
     var descriptionElem = formObj.elements.description;
-    var descriptionValue = descriptionElem.value;
+    var descriptionValue = descriptionElem.textContent;
     var descriptionErr = document.getElementById('description_err');
     if (descriptionValue){
         descriptionErr.textContent = '';
@@ -179,8 +203,9 @@ document.forms.my_form.onsubmit = function (EO){
     okValid = emailValid(okValid)&& okValid;
     okValid = catalogValid(okValid) && okValid;
     okValid = placementValid(okValid) && okValid;
-    okValid =descriptionValid(okValid) && okValid;
-
+    okValid = feedBackValid(okValid) && okValid;
+    okValid = descriptionValid(okValid) && okValid;
+    alert(okValid);
     if(!okValid){
         EO.preventDefault()
     }

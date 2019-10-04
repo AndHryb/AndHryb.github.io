@@ -17,6 +17,11 @@
             width: 250px;
             clear: both;
         }
+        .check {
+            width: 20px;
+            margin-right: 234px;
+            margin-left: 0px;
+        }
         #dev_err,#name_err,#url_err,#date_err,#visitors_err,#email_err,#catalog_err,#placement_err,#feedback_err,#description_err{
             color: red;
             vertical-align: center;
@@ -27,7 +32,7 @@
 </head>
 <body>
     <div class="main">
-    <form action="http://fe.it-academy.by/TestForm.php" name="my_form" novalidate>
+    <form id= "myform" action="http://fe.it-academy.by/TestForm.php" name="my_form" novalidate>
         <div class="field">
             <label>Разработчики :</label>
             <input type="text" name="developers" class="inputfield">
@@ -78,17 +83,18 @@
             </span>
             <span id="placement_err"></span>
         </div>
-            <label>Разрешить отзывы</label>
-            <input type="radio" name="feedback" value="true">
+        <div class="field">
+            <label>Разрешить отзывы:</label>
+            <input type="checkbox" name="feedback"  class="inputfield check">
             <span id="feedback_err"></span>
         </div>
         <div class="field">
             <label>Описание сайта:</label>
-            <textarea name="description" class="inputfield" rows="10"></textarea>
+            <textarea name="description" class="inputfield" rows="10" form="myform"></textarea>
             <span id="description_err"></span>
         </div>
         <div class="field">
-           <input type="submit">
+            <input type="submit">
         </div>
     </form>
     </div>
