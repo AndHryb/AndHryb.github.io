@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8523ae91-f4dd-46a1-990e-8dd8260e77d9" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/n.27_valid_form/valid_form.js" beforeDir="false" afterPath="$PROJECT_DIR$/n.27_valid_form/valid_form.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -19,38 +19,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="valid_form.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/n.27_valid_form/valid_form.js">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/n.33_clock_dom/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="188" column="36" lean-forward="true" selection-start-line="188" selection-start-column="36" selection-end-line="188" selection-end-column="36" />
-              <folding>
-                <element signature="n#!!block;n#devValid#0" />
-                <element signature="n#!!block;n#nameValid#0" />
-                <element signature="n#!!block;n#urlValid#0" />
-                <element signature="n#!!block;n#dateValid#0" />
-                <element signature="n#!!block;n#visitorsValid#0" />
-                <element signature="n#!!block;n#emailValid#0" />
-                <element signature="n#!!block;n#catalogValid#0" />
-              </folding>
+            <state relative-caret-position="816">
+              <caret line="48" column="9" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/n.27_valid_form/index.html">
+      <file leaf-file-name="clock_dom.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/n.33_clock_dom/clock_dom.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="18" column="9" lean-forward="true" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
-              <folding>
-                <element signature="n#div#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#1;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#2;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#3;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#4;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#5;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#6;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-              </folding>
+            <state relative-caret-position="-119">
+              <caret line="76" column="4" selection-start-line="76" selection-start-column="4" selection-end-line="76" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -98,6 +80,12 @@
         <option value="$PROJECT_DIR$/n.30_dragondrop/dragondrop.js" />
         <option value="$PROJECT_DIR$/n.27_valid_form/index.html" />
         <option value="$PROJECT_DIR$/n.27_valid_form/valid_form.js" />
+        <option value="$PROJECT_DIR$/n.33_clock_dom/index.html" />
+        <option value="$PROJECT_DIR$/n.37_clock_svg/index.html" />
+        <option value="$PROJECT_DIR$/n.37_clock_svg/clock_svg.js" />
+        <option value="$PROJECT_DIR$/n.40_clock_canvas/index.html" />
+        <option value="$PROJECT_DIR$/n.40_clock_canvas/clock_canvas.js" />
+        <option value="$PROJECT_DIR$/n.33_clock_dom/clock_dom.js" />
       </list>
     </option>
   </component>
@@ -121,6 +109,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -131,13 +120,22 @@
             <path>
               <item name="pvtcourses" type="b2602c69:ProjectViewProjectNode" />
               <item name="pvtcourses" type="462c0819:PsiDirectoryNode" />
-              <item name="n.27_valid_form" type="462c0819:PsiDirectoryNode" />
+              <item name="n.33_clock_dom" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pvtcourses" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pvtcourses" type="462c0819:PsiDirectoryNode" />
+              <item name="n.37_clock_svg" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pvtcourses" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pvtcourses" type="462c0819:PsiDirectoryNode" />
+              <item name="n.40_clock_canvas" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -205,12 +203,19 @@
       <workItem from="1569952739127" duration="7150000" />
       <workItem from="1570040705260" duration="7748000" />
       <workItem from="1570126996481" duration="8569000" />
-      <workItem from="1570216334198" duration="6682000" />
+      <workItem from="1570216334198" duration="6808000" />
+      <workItem from="1571169894062" duration="2743000" />
+      <workItem from="1571333646844" duration="10106000" />
+      <workItem from="1571685349810" duration="5803000" />
+      <workItem from="1572545694424" duration="8943000" />
+      <workItem from="1572640450621" duration="4962000" />
+      <workItem from="1572896943817" duration="1488000" />
+      <workItem from="1573076900385" duration="2183000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="174120000" />
+    <option name="totallyTimeSpent" value="210474000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -238,19 +243,19 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49931034" visible="true" weight="0.25325522" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32968536" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.32965517" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32968536" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Message" order="0" />
       <window_info id="Favorites" order="2" sideWeight="0.5006896" side_tool="true" weight="0.25325522" />
     </layout-to-restore>
   </component>
@@ -266,38 +271,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/n.03_anketa/Anketa.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/n.10_mood/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="7" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/n.17_vowels_arr/reduce/vovels_reduce.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="2" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/n.03_anketa/qestionnaire.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/n.17_vowels_arr/filter/Filter.js" />
-    <entry file="file://$PROJECT_DIR$/n.17_vowels_arr/filter/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/n.17_vowels_arr/forEach/vowels_forEach.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -519,33 +492,49 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/n.27_valid_form/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="18" column="9" lean-forward="true" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
-          <folding>
-            <element signature="n#div#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#1;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#2;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#3;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#4;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#5;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#6;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-          </folding>
+        <state relative-caret-position="306">
+          <caret line="18" column="9" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/n.27_valid_form/valid_form.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="188" column="36" lean-forward="true" selection-start-line="188" selection-start-column="36" selection-end-line="188" selection-end-column="36" />
-          <folding>
-            <element signature="n#!!block;n#devValid#0" />
-            <element signature="n#!!block;n#nameValid#0" />
-            <element signature="n#!!block;n#urlValid#0" />
-            <element signature="n#!!block;n#dateValid#0" />
-            <element signature="n#!!block;n#visitorsValid#0" />
-            <element signature="n#!!block;n#emailValid#0" />
-            <element signature="n#!!block;n#catalogValid#0" />
-          </folding>
+        <state relative-caret-position="190">
+          <caret line="188" column="36" selection-start-line="188" selection-start-column="36" selection-end-line="188" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/n.37_clock_svg/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/n.37_clock_svg/clock_svg.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/n.40_clock_canvas/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/n.40_clock_canvas/clock_canvas.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/n.33_clock_dom/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="816">
+          <caret line="48" column="9" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/n.33_clock_dom/clock_dom.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-119">
+          <caret line="76" column="4" selection-start-line="76" selection-start-column="4" selection-end-line="76" selection-end-column="4" />
         </state>
       </provider>
     </entry>
