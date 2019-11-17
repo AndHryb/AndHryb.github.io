@@ -3,6 +3,7 @@
 var clockRadius = 300; //радиус часов в пикселях
 var hoursOnClockFace = 12;// количество часов
 
+
 function clockBuilder() {
 
     var clock = document.createElement('div');
@@ -74,7 +75,7 @@ function clockBuilder() {
     secondClockHand.style.transformOrigin = '50% 90%';
     secondClockHand.id = "secondsHand";
     clock.appendChild(secondClockHand);
-    
+
 
     var digitalClock = document.createElement('div');
     digitalClock.style.width = clockRadius*0.6+'px';
