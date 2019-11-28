@@ -3,11 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="8523ae91-f4dd-46a1-990e-8dd8260e77d9" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/n.33_clock_dom/clock_dom.js" beforeDir="false" afterPath="$PROJECT_DIR$/n.33_clock_dom/clock_dom.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/n.37_clock_svg/clock_svg.js" beforeDir="false" afterPath="$PROJECT_DIR$/n.37_clock_svg/clock_svg.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/n.37_clock_svg/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/n.37_clock_svg/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/n.40_clock_canvas/clock_canvas.js" beforeDir="false" afterPath="$PROJECT_DIR$/n.40_clock_canvas/clock_canvas.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/n.40_clock_canvas/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/n.40_clock_canvas/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -27,8 +22,8 @@
       <file leaf-file-name="clock_dom.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/n.33_clock_dom/clock_dom.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
+            <state relative-caret-position="527">
+              <caret line="31" column="31" selection-start-line="31" selection-start-column="24" selection-end-line="31" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -36,17 +31,38 @@
       <file leaf-file-name="clock_svg.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/n.37_clock_svg/clock_svg.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-37">
+            <state relative-caret-position="1700">
               <caret line="100" selection-start-line="100" selection-end-line="100" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="clock_canvas.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="clock_canvas.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/n.40_clock_canvas/clock_canvas.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="289">
               <caret line="17" column="45" selection-start-line="17" selection-start-column="45" selection-end-line="17" selection-end-column="45" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/n.43_tennis_dom/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tennis_dom.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/n.43_tennis_dom/tennis_dom.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1992">
+              <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+              <folding>
+                <element signature="n#!!block;n#tennisBulder#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -100,6 +116,8 @@
         <option value="$PROJECT_DIR$/n.37_clock_svg/clock_svg.js" />
         <option value="$PROJECT_DIR$/n.33_clock_dom/clock_dom.js" />
         <option value="$PROJECT_DIR$/n.40_clock_canvas/clock_canvas.js" />
+        <option value="$PROJECT_DIR$/n.43_tennis_dom/index.html" />
+        <option value="$PROJECT_DIR$/n.43_tennis_dom/tennis_dom.js" />
       </list>
     </option>
   </component>
@@ -112,9 +130,9 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-10" />
-    <option name="y" value="-10" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="681" />
+    <option name="y" value="-19" />
     <option name="width" value="980" />
     <option name="height" value="1040" />
   </component>
@@ -123,6 +141,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -133,13 +152,12 @@
             <path>
               <item name="pvtcourses" type="b2602c69:ProjectViewProjectNode" />
               <item name="pvtcourses" type="462c0819:PsiDirectoryNode" />
-              <item name="n.40_clock_canvas" type="462c0819:PsiDirectoryNode" />
+              <item name="n.43_tennis_dom" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -223,14 +241,21 @@
       <workItem from="1573674292074" duration="7782000" />
       <workItem from="1573890773902" duration="7085000" />
       <workItem from="1574005802549" duration="2060000" />
+      <workItem from="1574108714733" duration="2963000" />
+      <workItem from="1574533492977" duration="13303000" />
+      <workItem from="1574579338206" duration="3982000" />
+      <workItem from="1574702471984" duration="10586000" />
+      <workItem from="1574883585665" duration="3087000" />
+      <workItem from="1574964450311" duration="553000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="249197000" />
+    <option name="totallyTimeSpent" value="283671000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49931034" visible="true" weight="0.25325522" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -282,14 +307,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/n.17_vowels_arr/forEach/vowels_forEach.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="27" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/n.17_vowels_arr/filter/Filter.js" />
     <entry file="file://$PROJECT_DIR$/n.17_vowels_arr/filter/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -536,24 +553,41 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/n.40_clock_canvas/clock_canvas.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="45" selection-start-line="17" selection-start-column="45" selection-end-line="17" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/n.37_clock_svg/clock_svg.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-37">
+        <state relative-caret-position="1700">
           <caret line="100" selection-start-line="100" selection-end-line="100" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/n.33_clock_dom/clock_dom.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        <state relative-caret-position="527">
+          <caret line="31" column="31" selection-start-line="31" selection-start-column="24" selection-end-line="31" selection-end-column="32" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/n.40_clock_canvas/clock_canvas.js">
+    <entry file="file://$PROJECT_DIR$/n.43_tennis_dom/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="45" selection-start-line="17" selection-start-column="45" selection-end-line="17" selection-end-column="45" />
+        <state relative-caret-position="136">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/n.43_tennis_dom/tennis_dom.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1992">
+          <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+          <folding>
+            <element signature="n#!!block;n#tennisBulder#0" />
+          </folding>
         </state>
       </provider>
     </entry>
