@@ -2,6 +2,22 @@
 
 var fieldWidth = 600; //Длина поля
 
+var RAF=
+    window.requestAnimationFrame ||
+    window.webkitRequestAnimationFrame ||
+    window.mozRequestAnimationFrame ||
+    window.oRequestAnimationFrame ||
+    window.msRequestAnimationFrame
+;
+
+var CAF = window.cancelAnimationFrame ||
+    window.webkitCancelAnimationFrame ||
+    window.mozCancelAnimationFrame||
+    window.oCancelAnimationFrame||
+    window.msCancelAnimationFrame
+;
+
+var myReq;
 
  function tennisBulder() {
      var startButton =  document.createElement('button');
@@ -15,7 +31,12 @@ var fieldWidth = 600; //Длина поля
      score.style.height = fieldWidth*0.15+'px';
      score.style.marginLeft = (document.documentElement.clientWidth/2)-fieldWidth*0.15 + 'px';
      score.style.backgroundColor = '#aaffee';
+     score.style.fontSize = fieldWidth*0.14+'px';
+     score.style.lineHeight = '100%';
+     score.style.textAlign = 'center';
+     score.textContent = '0:0';
      score.id = 'score';
+
      document.body.appendChild(score);
 
 
@@ -66,8 +87,8 @@ var fieldWidth = 600; //Длина поля
  var ballModel = {
         posX:document.getElementById('ball').offsetLeft ,
         posY:document.getElementById('ball').offsetTop ,
-        speedX:5*((Math.random() < 0.5) ? -1 : 1),
-        speedY:5,
+        speedX:3,
+        speedY:3,
         width:fieldWidth*0.05,
         height:fieldWidth*0.05,
 
@@ -75,20 +96,23 @@ var fieldWidth = 600; //Длина поля
             var ballElem = document.getElementById('ball');
             ballElem.style.left = Math.round(this.posX)+'px';
             ballElem.style.top = Math.round(this.posY)+'px';
+            ballElem.style.transform="translateZ(0)";
         }
 
  };
 
  var leftPlatformModel = {
      posY:document.getElementById('leftPlatform').offsetTop ,
-     speedY:10,
-     vector:1,
+     speedY:5,
      height:fieldWidth*0.2,
      width:fieldWidth*0.02,
+     up:undefined,
+     down:undefined,
 
      update:function () {
          var platformElem = document.getElementById('leftPlatform');
          platformElem.style.top = Math.round(this.posY)+'px';
+         platformElem.style.transform= "translateZ(0)";
 
      }
 
@@ -96,31 +120,50 @@ var fieldWidth = 600; //Длина поля
 
 var rightPlatformModel = {
     posY:document.getElementById('rightPlatform').offsetTop ,
-    speedY:10,
-    vector:1,
+    speedY:5,
     height:fieldWidth*0.2,
     width:fieldWidth*0.02,
+    up:undefined,
+    down:undefined,
+
     update:function () {
         var platformElem = document.getElementById('rightPlatform');
         platformElem.style.top = Math.round(this.posY)+'px';
+        platformElem.style.transform=" translateZ(0)";
 
     }
 
 };
 
+var scoreModel = {
+    leftPlayerScore:0,
+    rightPlayerScore:0,
+    update:function () {
+        var scoreElem = document.getElementById('score');
+        scoreElem.textContent = scoreModel.leftPlayerScore + ':' +scoreModel.rightPlayerScore;
+    }
+}
+
 
 
  function tick() {
+
+     myReq = RAF(tick);
+
      ballModel.posX += ballModel.speedX;
      //вылетел ли правее стены?
      if(ballModel.posX + ballModel.width  > fieldWidth){
-         ballModel.speedX = -ballModel.speedX;
          ballModel.posX = fieldWidth - ballModel.width;
+         CAF(myReq);
+         scoreModel.rightPlayerScore++;
+         scoreModel.update();
      }
      //вылетел ли мяч левее стены?
      if(ballModel.posX<0){
-         ballModel.speedX = -ballModel.speedX;
          ballModel.posX = 0;
+         CAF(myReq);
+         scoreModel.leftPlayerScore++;
+         scoreModel.update();
      }
      ballModel.posY +=ballModel.speedY;
      //вылетел ли мяч ниже пола?
@@ -134,80 +177,118 @@ var rightPlatformModel = {
          ballModel.posY = 0;
      }
 
-     //пересекаеться ли мяч с левой ракеткой?
+     //пересекается ли мяч с левой ракеткой?
      if((ballModel.posY +ballModel.height/2)>leftPlatformModel.posY&&
          (ballModel.posY+ballModel.height/2)<(leftPlatformModel.posY+leftPlatformModel.height)&&
          (ballModel.posX<=leftPlatformModel.width)){
          ballModel.speedX = -ballModel.speedX;
          ballModel.posX = leftPlatformModel.width;
-         ballModel.speedY = ballModel.speedY*leftPlatformModel.vector;
+         ballModel.speedY = ((Math.random() < 0.5) ? -1 : 1)*3;
      }
 
-     //пересекаеться ли мяч с правой ракеткой?
+     //пересекается ли мяч с правой ракеткой?
      if((ballModel.posY+ ballModel.height/2)>rightPlatformModel.posY&&
          (ballModel.posY+ballModel.height/2)<(rightPlatformModel.posY+rightPlatformModel.height)&&
          (ballModel.posX >=(fieldWidth-rightPlatformModel.width-ballModel.width))){
          ballModel.speedX = -ballModel.speedX;
          ballModel.posX = fieldWidth - rightPlatformModel.width-ballModel.width;
-         ballModel.speedY = ballModel.speedY*rightPlatformModel.vector;
+         ballModel.speedY = ((Math.random() < 0.5) ? -1 : 1)*3;
      }
+
+
+
+     if(leftPlatformModel.up){
+         leftPlatformModel.posY += leftPlatformModel.speedY;
+         leftPlatformModel.vector = 1;
+     }
+
+     if(leftPlatformModel.down){
+         leftPlatformModel.posY -= leftPlatformModel.speedY;
+         leftPlatformModel.vector = -1;
+     }
+
+     //платформа ниже поля?
+     if (leftPlatformModel.posY > fieldWidth * 0.6 - leftPlatformModel.height) {
+         leftPlatformModel.posY = fieldWidth * 0.6 - leftPlatformModel.height;
+     }
+
+     //платформа выше поля?
+     if (leftPlatformModel.posY < 0) {
+         leftPlatformModel.posY = 0;
+     }
+
+     if(rightPlatformModel.up){
+         rightPlatformModel.posY += rightPlatformModel.speedY;
+         rightPlatformModel.vector = 1;
+     }
+
+     if(rightPlatformModel.down){
+         rightPlatformModel.posY -= rightPlatformModel.speedY;
+         rightPlatformModel.vector = -1;
+     }
+
+     //платформа ниже поля?
+     if (rightPlatformModel.posY > fieldWidth * 0.6 - rightPlatformModel.height) {
+         rightPlatformModel.posY = fieldWidth * 0.6 - rightPlatformModel.height;
+     }
+     //платформа выше поля?
+     if (rightPlatformModel.posY < 0) {
+         rightPlatformModel.posY = 0;
+     }
+
+
      ballModel.update();
+     leftPlatformModel.update();
+     rightPlatformModel.update();
 
  }
+
 
  function startGame() {
-    setInterval(tick,40);
+     ballModel.posX = fieldWidth/2 - fieldWidth*0.025 ;
+     ballModel.posY = (fieldWidth*0.6)/2 - fieldWidth*0.025;
+     ballModel.speedX = ((Math.random() < 0.5) ? -1 : 1)*3;
+     ballModel.speedY = ((Math.random() < 0.5) ? -1 : 1)*3;
+     ballModel.update();
+     myReq = RAF(tick);
+
  }
+
 
  document.getElementById('start').addEventListener('click',startGame);
 
-window.addEventListener('keydown',getKeyboardChar);
+ window.addEventListener('keydown',pressedControlKey);
+ window.addEventListener('keyup',releasedControlKey);
 
-
-function getKeyboardChar(EO) {
+ function pressedControlKey(EO) {
     EO.preventDefault();
-    console.log(EO);
     if (EO.which === 17) {
-        leftPlatformModel.posY += leftPlatformModel.speedY;
-        leftPlatformModel.vector = 1;
-        leftPlatformModel.update();
+        leftPlatformModel.up = true;
     }
     if (EO.which === 16) {
-        leftPlatformModel.posY -= leftPlatformModel.speedY;
-        leftPlatformModel.vector = -1;
-        leftPlatformModel.update();
+        leftPlatformModel.down = true;
     }
-    //платформа ниже поля?
-    if (leftPlatformModel.posY > fieldWidth * 0.6 - leftPlatformModel.height) {
-        leftPlatformModel.posY = fieldWidth * 0.6 - leftPlatformModel.height;
-        leftPlatformModel.update();
-    }
-    //платформа выше поля?
-    if (leftPlatformModel.posY < 0) {
-        leftPlatformModel.posY = 0;
-        leftPlatformModel.update();
-    }
-
-
     if (EO.which === 40) {
-        rightPlatformModel.posY += rightPlatformModel.speedY;
-        rightPlatformModel.vector = 1;
-        rightPlatformModel.update();
+        rightPlatformModel.up = true;
+
     }
     if (EO.which === 38) {
-        rightPlatformModel.posY -= rightPlatformModel.speedY;
-        rightPlatformModel.vector = -1;
-        rightPlatformModel.update();
+        rightPlatformModel.down = true;
     }
-    //платформа ниже поля?
-    if (rightPlatformModel.posY > fieldWidth * 0.6 - rightPlatformModel.height) {
-        rightPlatformModel.posY = fieldWidth * 0.6 - rightPlatformModel.height;
-        rightPlatformModel.update();
-    }
-    //платформа выше поля?
-    if (rightPlatformModel.posY < 0) {
-        rightPlatformModel.posY = 0;
-        rightPlatformModel.update();
-    }
+}
 
+ function releasedControlKey(EO) {
+    if (EO.which === 17) {
+        leftPlatformModel.up = false;
+    }
+    if (EO.which === 16) {
+        leftPlatformModel.down = false;
+    }
+    if (EO.which === 40) {
+        rightPlatformModel.up = false;
+
+    }
+    if (EO.which === 38) {
+        rightPlatformModel.down = false;
+    }
 }
