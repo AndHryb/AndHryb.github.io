@@ -151,6 +151,7 @@ var scoreModel = {
      myReq = RAF(tick);
 
      ballModel.posX += ballModel.speedX;
+
      //вылетел ли правее стены?
      if(ballModel.posX + ballModel.width  > fieldWidth){
          ballModel.posX = fieldWidth - ballModel.width;
@@ -165,7 +166,9 @@ var scoreModel = {
          scoreModel.leftPlayerScore++;
          scoreModel.update();
      }
+
      ballModel.posY +=ballModel.speedY;
+
      //вылетел ли мяч ниже пола?
      if(ballModel.posY +ballModel.height> fieldWidth*0.6){
          ballModel.speedY = -ballModel.speedY;
@@ -183,7 +186,6 @@ var scoreModel = {
          (ballModel.posX<=leftPlatformModel.width)){
          ballModel.speedX = -ballModel.speedX;
          ballModel.posX = leftPlatformModel.width;
-         ballModel.speedY = ((Math.random() < 0.5) ? -1 : 1)*3;
      }
 
      //пересекается ли мяч с правой ракеткой?
@@ -192,7 +194,7 @@ var scoreModel = {
          (ballModel.posX >=(fieldWidth-rightPlatformModel.width-ballModel.width))){
          ballModel.speedX = -ballModel.speedX;
          ballModel.posX = fieldWidth - rightPlatformModel.width-ballModel.width;
-         ballModel.speedY = ((Math.random() < 0.5) ? -1 : 1)*3;
+
      }
 
 
