@@ -26,6 +26,7 @@ var myReq;
      startButton.id = 'start';
      document.body.appendChild(startButton);
 
+
      var score = document.createElement('div');
      score.style.width = fieldWidth*0.3+'px';
      score.style.height = fieldWidth*0.15+'px';
@@ -80,6 +81,12 @@ var myReq;
      ball.style.top = (fieldWidth*0.6)/2 - fieldWidth*0.025 + 'px';
      ball.id = 'ball';
      field.appendChild(ball);
+
+
+     var instruction =  document.createElement('div');
+     instruction.textContent = 'Левый shift и ctrl для управления левой ракеткой,стрелочка вверх и вниз для правой.Старт после гола.';
+     instruction.style.textAlign = 'center';
+     document.body.appendChild(instruction);
  }
 
  tennisBulder();

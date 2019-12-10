@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="8523ae91-f4dd-46a1-990e-8dd8260e77d9" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/n.43_tennis_dom/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/n.43_tennis_dom/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/n.43_tennis_dom/tennis_dom.js" beforeDir="false" afterPath="$PROJECT_DIR$/n.43_tennis_dom/tennis_dom.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -32,7 +33,7 @@
       <file leaf-file-name="clock_svg.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/n.37_clock_svg/clock_svg.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1700">
+            <state relative-caret-position="643">
               <caret line="100" selection-start-line="100" selection-end-line="100" />
             </state>
           </provider>
@@ -50,8 +51,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/n.43_tennis_dom/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
+            <state relative-caret-position="119">
+              <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -59,10 +60,9 @@
       <file leaf-file-name="tennis_dom.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/n.43_tennis_dom/tennis_dom.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-785">
-              <caret line="187" column="50" selection-start-line="187" selection-start-column="50" selection-end-line="187" selection-end-column="50" />
+            <state relative-caret-position="374">
+              <caret line="89" column="2" lean-forward="true" selection-start-line="89" selection-start-column="2" selection-end-line="89" selection-end-column="2" />
               <folding>
-                <element signature="n#!!block;n#tennisBulder#0" />
                 <element signature="n#!!block;n#pressedControlKey#0" />
                 <element signature="n#!!block;n#releasedControlKey#0" />
               </folding>
@@ -253,12 +253,13 @@
       <workItem from="1575204859621" duration="558000" />
       <workItem from="1575227668642" duration="8533000" />
       <workItem from="1575302848745" duration="2244000" />
-      <workItem from="1575482671449" duration="295000" />
+      <workItem from="1575482671449" duration="895000" />
+      <workItem from="1575995598877" duration="1565000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="306847000" />
+    <option name="totallyTimeSpent" value="309012000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -286,19 +287,19 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49931034" visible="true" weight="0.25325522" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32968536" />
+      <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.32965517" />
-      <window_info anchor="bottom" id="Version Control" order="10" />
-      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32968536" />
       <window_info id="Favorites" order="2" sideWeight="0.5006896" side_tool="true" weight="0.25325522" />
     </layout-to-restore>
   </component>
@@ -560,10 +561,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/n.43_tennis_dom/index.html">
+    <entry file="file://$PROJECT_DIR$/n.33_clock_dom/clock_dom.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        <state relative-caret-position="527">
+          <caret line="31" column="31" selection-start-line="31" selection-start-column="24" selection-end-line="31" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/n.37_clock_svg/clock_svg.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="643">
+          <caret line="100" selection-start-line="100" selection-end-line="100" />
         </state>
       </provider>
     </entry>
@@ -574,26 +582,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/n.33_clock_dom/clock_dom.js">
+    <entry file="file://$PROJECT_DIR$/n.43_tennis_dom/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="31" column="31" selection-start-line="31" selection-start-column="24" selection-end-line="31" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/n.37_clock_svg/clock_svg.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1700">
-          <caret line="100" selection-start-line="100" selection-end-line="100" />
+        <state relative-caret-position="119">
+          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/n.43_tennis_dom/tennis_dom.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-785">
-          <caret line="187" column="50" selection-start-line="187" selection-start-column="50" selection-end-line="187" selection-end-column="50" />
+        <state relative-caret-position="374">
+          <caret line="89" column="2" lean-forward="true" selection-start-line="89" selection-start-column="2" selection-end-line="89" selection-end-column="2" />
           <folding>
-            <element signature="n#!!block;n#tennisBulder#0" />
             <element signature="n#!!block;n#pressedControlKey#0" />
             <element signature="n#!!block;n#releasedControlKey#0" />
           </folding>
