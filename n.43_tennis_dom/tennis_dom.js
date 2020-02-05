@@ -1,6 +1,6 @@
 "use strict"
 
-var fieldWidth = 600; //Длина поля
+var fieldWidth = 800; //Длина поля
 
 var RAF=
     window.requestAnimationFrame ||

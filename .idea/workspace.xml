@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="8523ae91-f4dd-46a1-990e-8dd8260e77d9" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/n.43_tennis_dom/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/n.43_tennis_dom/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/n.43_tennis_dom/tennis_dom.js" beforeDir="false" afterPath="$PROJECT_DIR$/n.43_tennis_dom/tennis_dom.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -21,51 +20,49 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="clock_dom.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/n.33_clock_dom/clock_dom.js">
+      <file leaf-file-name="city_map.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test_task/city_map.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="31" column="31" selection-start-line="31" selection-start-column="24" selection-end-line="31" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="clock_svg.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/n.37_clock_svg/clock_svg.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="643">
-              <caret line="100" selection-start-line="100" selection-end-line="100" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="clock_canvas.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/n.40_clock_canvas/clock_canvas.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="45" selection-start-line="17" selection-start-column="45" selection-end-line="17" selection-end-column="45" />
+            <state relative-caret-position="507">
+              <caret line="209" column="44" selection-start-line="209" selection-start-column="44" selection-end-line="209" selection-end-column="44" />
+              <folding>
+                <element signature="e#841#1055#0" />
+                <element signature="e#1159#1962#0" />
+                <element signature="e#2018#2611#0" />
+                <element signature="e#2646#3040#0" />
+                <element signature="e#3163#3757#0" />
+                <element signature="e#3796#5951#0" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/n.43_tennis_dom/index.html">
+        <entry file="file://$PROJECT_DIR$/test_task/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+            <state relative-caret-position="102">
+              <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
+              <folding>
+                <element signature="n#style#0;n#head#0;n#html#0;n#!!top" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tennis_dom.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/n.43_tennis_dom/tennis_dom.js">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/n.27_valid_form/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="89" column="2" lean-forward="true" selection-start-line="89" selection-start-column="2" selection-end-line="89" selection-end-column="2" />
-              <folding>
-                <element signature="n#!!block;n#pressedControlKey#0" />
-                <element signature="n#!!block;n#releasedControlKey#0" />
-              </folding>
+            <state relative-caret-position="289">
+              <caret line="17" column="23" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="valid_form.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/n.27_valid_form/valid_form.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="493">
+              <caret line="29" column="29" selection-start-line="29" selection-start-column="29" selection-end-line="29" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -75,6 +72,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="CSS File" />
         <option value="HTML File" />
         <option value="JavaScript File" />
       </list>
@@ -112,7 +110,6 @@
         <option value="$PROJECT_DIR$/n.30_dragondrop/index.html" />
         <option value="$PROJECT_DIR$/n.30_dragondrop/dragondrop.js" />
         <option value="$PROJECT_DIR$/n.27_valid_form/index.html" />
-        <option value="$PROJECT_DIR$/n.27_valid_form/valid_form.js" />
         <option value="$PROJECT_DIR$/n.33_clock_dom/index.html" />
         <option value="$PROJECT_DIR$/n.37_clock_svg/index.html" />
         <option value="$PROJECT_DIR$/n.40_clock_canvas/index.html" />
@@ -120,7 +117,16 @@
         <option value="$PROJECT_DIR$/n.33_clock_dom/clock_dom.js" />
         <option value="$PROJECT_DIR$/n.40_clock_canvas/clock_canvas.js" />
         <option value="$PROJECT_DIR$/n.43_tennis_dom/index.html" />
+        <option value="$PROJECT_DIR$/n.13_drinks_hash/drinks_loc_storage.js" />
+        <option value="$PROJECT_DIR$/n.53_drinks_loc_storage/drinks_loc_storage.js" />
+        <option value="$PROJECT_DIR$/n.53_drinks_loc_storage/index.html" />
+        <option value="$PROJECT_DIR$/test/solution.css" />
         <option value="$PROJECT_DIR$/n.43_tennis_dom/tennis_dom.js" />
+        <option value="$PROJECT_DIR$/test/index.html" />
+        <option value="$PROJECT_DIR$/test/test.js" />
+        <option value="$PROJECT_DIR$/n.27_valid_form/valid_form.js" />
+        <option value="$PROJECT_DIR$/test_task/index.html" />
+        <option value="$PROJECT_DIR$/test_task/city_map.js" />
       </list>
     </option>
   </component>
@@ -133,11 +139,11 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="680" />
-    <option name="y" value="-20" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="380" />
+    <option name="y" value="-25" />
     <option name="width" value="980" />
-    <option name="height" value="1040" />
+    <option name="height" value="1025" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -154,7 +160,22 @@
             <path>
               <item name="pvtcourses" type="b2602c69:ProjectViewProjectNode" />
               <item name="pvtcourses" type="462c0819:PsiDirectoryNode" />
-              <item name="n.43_tennis_dom" type="462c0819:PsiDirectoryNode" />
+              <item name="n.23_dyn_form" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pvtcourses" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pvtcourses" type="462c0819:PsiDirectoryNode" />
+              <item name="n.27_valid_form" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pvtcourses" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pvtcourses" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pvtcourses" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pvtcourses" type="462c0819:PsiDirectoryNode" />
+              <item name="test_task" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -167,9 +188,15 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\masm32\Desktop\courses\pvtcourses\n.53_drinks_loc_storage" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -254,18 +281,37 @@
       <workItem from="1575227668642" duration="8533000" />
       <workItem from="1575302848745" duration="2244000" />
       <workItem from="1575482671449" duration="895000" />
-      <workItem from="1575995598877" duration="1565000" />
+      <workItem from="1575995598877" duration="1846000" />
+      <workItem from="1576171716835" duration="2056000" />
+      <workItem from="1576614886857" duration="601000" />
+      <workItem from="1576783132231" duration="4340000" />
+      <workItem from="1577123010065" duration="5693000" />
+      <workItem from="1577559955799" duration="5279000" />
+      <workItem from="1577776655916" duration="847000" />
+      <workItem from="1578778006552" duration="779000" />
+      <workItem from="1578946571636" duration="6000" />
+      <workItem from="1579720585309" duration="4241000" />
+      <workItem from="1579809377486" duration="3962000" />
+      <workItem from="1579899983586" duration="5522000" />
+      <workItem from="1579949648169" duration="14871000" />
+      <workItem from="1580152490695" duration="1412000" />
+      <workItem from="1580493780978" duration="11361000" />
+      <workItem from="1580577732585" duration="7541000" />
+      <workItem from="1580638931764" duration="10678000" />
+      <workItem from="1580677282807" duration="5123000" />
+      <workItem from="1580847572171" duration="5881000" />
+      <workItem from="1580919447428" duration="4186000" />
+      <workItem from="1580936058729" duration="3688000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="309012000" />
+    <option name="totallyTimeSpent" value="407360000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49931034" visible="true" weight="0.25325522" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49931034" visible="true" weight="0.15820312" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.32965517" />
@@ -311,53 +357,10 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="17" />
+      <option name="time" value="23" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/n.17_vowels_arr/filter/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/n.17_vowels_arr/forEach/vowels_forEach.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="27" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/n.17_vowels_arr/filter/Filter.js" />
-    <entry file="file://$PROJECT_DIR$/n.17_vowels_arr/filter/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="7" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/n.17_vowels_arr/forEach/vowels_forEach.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="35" lean-forward="true" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/n.05_treesum/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/n.05_treesum/Treesum.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="9" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/n.07_vowels/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -456,27 +459,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/n.13_drinks_hash/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="7" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/n.23_dyn_form/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/n.13_drinks_hash/drinks_hash.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="37" column="5" lean-forward="true" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/n.17_vowels_arr/filter/vowels_Filter.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -505,38 +487,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/n.23_dyn_form/dyn_form.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="116" column="56" selection-start-line="116" selection-start-column="56" selection-end-line="116" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/n.30_dragondrop/dragondrop.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="11" lean-forward="true" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/n.30_dragondrop/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="19" column="7" lean-forward="true" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/n.27_valid_form/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="9" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/n.27_valid_form/valid_form.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="188" column="36" selection-start-line="188" selection-start-column="36" selection-end-line="188" selection-end-column="36" />
         </state>
       </provider>
     </entry>
@@ -570,7 +524,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/n.37_clock_svg/clock_svg.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="643">
+        <state relative-caret-position="1700">
           <caret line="100" selection-start-line="100" selection-end-line="100" />
         </state>
       </provider>
@@ -579,6 +533,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="17" column="45" selection-start-line="17" selection-start-column="45" selection-end-line="17" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/solution.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
         </state>
       </provider>
     </entry>
@@ -591,11 +552,109 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/n.43_tennis_dom/tennis_dom.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="89" column="2" lean-forward="true" selection-start-line="89" selection-start-column="2" selection-end-line="89" selection-end-column="2" />
+        <state relative-caret-position="187">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/n.53_drinks_loc_storage/drinks_loc_storage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="626">
+          <caret line="60" selection-start-line="60" selection-end-line="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/n.53_drinks_loc_storage/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="7" lean-forward="true" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="47" selection-start-line="11" selection-start-column="47" selection-end-line="11" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/n.13_drinks_hash/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="7" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/n.13_drinks_hash/drinks_hash.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="12" selection-start-column="12" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/n.23_dyn_form/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/n.23_dyn_form/dyn_form.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1972">
+          <caret line="116" column="56" selection-start-line="116" selection-start-column="56" selection-end-line="116" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/n.30_dragondrop/dragondrop.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="41" lean-forward="true" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/n.27_valid_form/valid_form.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" column="29" selection-start-line="29" selection-start-column="29" selection-end-line="29" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/n.27_valid_form/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="23" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_task/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
           <folding>
-            <element signature="n#!!block;n#pressedControlKey#0" />
-            <element signature="n#!!block;n#releasedControlKey#0" />
+            <element signature="n#style#0;n#head#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_task/city_map.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="507">
+          <caret line="209" column="44" selection-start-line="209" selection-start-column="44" selection-end-line="209" selection-end-column="44" />
+          <folding>
+            <element signature="e#841#1055#0" />
+            <element signature="e#1159#1962#0" />
+            <element signature="e#2018#2611#0" />
+            <element signature="e#2646#3040#0" />
+            <element signature="e#3163#3757#0" />
+            <element signature="e#3796#5951#0" />
           </folding>
         </state>
       </provider>

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>city map</title>
+    <script  defer src="city_map.js"></script>
+    <style>
+        label {
+            float: left;
+            width: 180px;
+        }
+        .field {
+            text-align: left;
+            line-height: 25px;
+            padding-top: 10px;
+        }
+        form{
+            width: 500px;
+        }
+        .fieldForAddCity{
+            margin: 20px 40px;
+            background-color: #a5dcff;
+            width: 500px;
+            padding: 20px;
+            border: solid 2px #a50707;
+            border-radius: 10px;
+        }
+        input{
+            border-radius:2px;
+            border: solid 1px #a50707;
+            width: 200px;
+            clear: both;
+        }
+        span{
+            color: red;
+        }
+        .btnWrapper{
+            height: 100px;
+            position: relative;
+
+        }
+        #addBtn{
+            position:absolute;
+            width: 100px;
+            height: 30px;
+            border-radius: 4px;
+            border: solid 2px #a50707;
+            top: 35px;
+            left:40px;
+        }
+        #city_img{
+            position: absolute;
+            width: 30px;
+            height: 30px;
+            top:35px;
+            left: 150px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="fieldForAddCity">
+        <h2>Adding a city to the list</h2>
+        <form  name ="addCity">
+
+              <div class="field">
+                  <label for="cityName">Enter the city name:</label>
+                  <input type="text" id = "cityName" name="form_cityName">
+                  <span id = "cityName_err"></span>
+
+              </div>
+
+              <div class="field">
+                  <label for="state">State abbreviation:</label>
+                  <input type="text" id = "state" name="form_state">
+                  <span id = "state_err"></span>
+              </div>
+
+              <div class="field">
+                  <label for="latitude">Latitude:</label>
+                  <input type="text" id = "latitude" name="form_latitude">
+                  <span id = "latitude_err"></span>
+              </div>
+
+              <div class="field">
+                  <label for="longitude">Longitude:</label>
+                  <input type="text" id = "longitude" name="form_longitude">
+                  <span id = "longitude_err"></span>
+              </div>
+              <div class = "btnWrapper">
+                  <input type="button" id = "addBtn" value="Add a city">
+                  <img src="img/city.png" alt="city" id = "city_img">
+              </div>
+        </form>
+
+
+    </div>
+
+</body>
+</html>
