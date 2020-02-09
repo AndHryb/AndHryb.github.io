@@ -77,7 +77,7 @@ function CityNameStorage(cityListStr) {
 
         stateListElem.innerHTML = "";
 
-        var sortStates = uniq(states)
+        var sortStates = uniq(states);
 
         for(var i = 0; i < sortStates.length; i++){
             var listItem = document.createElement("option");
@@ -85,15 +85,11 @@ function CityNameStorage(cityListStr) {
             listItem.textContent = sortStates[i];
             stateListElem.appendChild(listItem);
         }
-        console.log( cityList,
-        states,
-        latitudes,
-        longitudes);
+
     };
 
     self.update();
 
-    console.log(cityList,states,latitudes,longitudes);
 
     //1) Return the name of the northernmost, easternmost, southernmost or westernmost city from the list, as requested by the caller  direction "n"/"s"/"e"/"w"/
     self.distantCity = function ( direction ) {
@@ -374,23 +370,9 @@ var CityMap =  new CityNameStorage("\"Nashville, TN\", 36.17, -86.78;" +
     "\"Los Angeles, CA\", 34.05, -118.24;" +
     "\"Memphis, TN\", 35.15, -90.05;");
 
-console.log(CityMap.cityInfoStorage);
-
 
 
 document.getElementById("addBtn").addEventListener('click', CityMap.addCityByForm ,false);
-
-/*window.addEventListener('load',function () {
-    var downloadedList = JSON.parse(localStorage.getItem("CityMapList"));
-
-    for(var k in downloadedList){
-
-        if(!(k in CityMap.cityInfoStorage)){
-            CityMap.cityInfoStorage[k] = downloadedList[k];
-        }
-    }
-
-});*/
 
 CityMap.drawPipePlot();
 
