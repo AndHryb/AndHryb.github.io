@@ -55,6 +55,9 @@
             top:35px;
             left: 150px;
         }
+        .pipe_plot{
+            margin: 100px;
+        }
 
     </style>
 </head>
@@ -91,10 +94,30 @@
                   <input type="button" id = "addBtn" value="Add a city">
                   <img src="img/city.png" alt="city" id = "city_img">
               </div>
+              <div class="field">
+                  <label for="state_list">Select a state :</label>
+                  <select id="state_list">
+
+                  </select>
+              </div>
+              <div class="field">
+                  <p>Cites from this state:</p>
+                  <div >
+                      <ul id="cites_in_state">
+                      </ul>
+                  </div>
+              </div>
+
         </form>
+
+        <div class="pipe_plot">
+            <canvas id="myCanvas"></canvas>
+            <div id="myLegend"></div>
+        </div>
 
 
     </div>
+
 
 </body>
 </html>
